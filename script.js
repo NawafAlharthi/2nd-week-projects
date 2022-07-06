@@ -44,6 +44,14 @@ $('#start-btn').on('click', function(e) {
 $('#stop-btn').on('click', function(e) {
     recognition.stop();
   });
+
+  const reloadtButton = document.querySelector("#reload");
+  // Reload everything:
+  function reload() {
+      reload = location.reload();
+  }
+  // Event listeners for reload
+  reloadButton.addEventListener("click", reload, false);
  
 Textbox.on('input', function() {
   Content = $(this).val();
