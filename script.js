@@ -52,7 +52,7 @@ $('#stop-btn').on('click', function(e) {
   }
   // Event listeners for reload
   reloadButton.addEventListener("click", reload, false);
- 
+
 Textbox.on('input', function() {
   Content = $(this).val();
 })
