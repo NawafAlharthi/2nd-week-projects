@@ -40,6 +40,10 @@ $('#start-btn').on('click', function(e) {
   }
   recognition.start();
 });
+
+$('#stop-btn').on('click', function(e) {
+    recognition.stop();
+  });
  
 Textbox.on('input', function() {
   Content = $(this).val();
