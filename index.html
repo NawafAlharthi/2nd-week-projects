@@ -10,12 +10,11 @@
         <title>SST Project</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
- 
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
  
     </head>
- 
+    
     <body>
         <div class="mycontainer">
  
@@ -23,11 +22,11 @@
  
             <div class="mywebapp"> 
                 <div class="input">
-                    <textarea id="textbox" rows="6"></textarea>
+                    <textarea class="textarea" id="textbox" placeholder="كلماتك سوف تكتب هنا" cols="50" rows="7" style="text-align:right; border: 6px outset #000000;"></textarea>
                 </div>         
                 <button id="start-btn" title="Start">ابدء</button>
-                <button id="stop-btn" title="Start">توقف</button>
-                <button onClick="window.location.reload();">اعادة</button>
+                <button id="stop-btn" title="Stop">توقف</button>
+                <button onClick="window.location.reload();" title="Refresh">اعادة</button>
             </div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
